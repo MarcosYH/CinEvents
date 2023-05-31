@@ -1,8 +1,8 @@
 
 <?php
 
-require_once('../core/database.php');
-require_once('../models/TrailersModel.php');
+require_once('core/database.php');
+require_once('models/TrailersModel.php');
 
 $database = new Database();
 $dbh = $database->getDBConnection();

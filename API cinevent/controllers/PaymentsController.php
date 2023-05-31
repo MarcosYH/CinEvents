@@ -23,26 +23,5 @@ function getPaymentById() {
     echo json_encode($payment);
 }
 
-// POST add payment
-function addPayment() {
-    global $paymentModel;
-    $data = json_decode(file_get_contents('php://input'), true);
-    $paymentModel->addPayment($data);
-}
-
-// PUT update payment
-function updatePayment() {
-    global $paymentModel;
-    $id = $_GET['id'];
-    $data = json_decode(file_get_contents('php://input'), true);
-    $paymentModel->updatePayment($id, $data);
-}
-
-// DELETE delete payment
-function deletePayment() {
-    global $paymentModel;
-    $id = $_GET['id'];
-    $paymentModel->deletePayment($id);
-}
 
 ?>
