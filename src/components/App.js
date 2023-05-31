@@ -1,10 +1,12 @@
 import React from "react";
-import Startpage from "./Startpage";
+// import Pagestart from "./Pagestart";
+import Login from "./Login";
 
 function App() {
   return (
     <div>
-   <Startpage/>
+   {/* <Pagestart/> */}
+   <Login/>
     </div>
   );
 }

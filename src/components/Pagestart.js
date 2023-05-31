@@ -1,7 +1,7 @@
 import React from 'react'
 import Imgstart from "../assets/Imgstart.png"
 import '../styles/Startpage.css'
-function Startpage() {
+function Pagestart() {
     return (
         <>
            <div className="flex flex-col lg:flex-row">
@@ -24,4 +24,4 @@ function Startpage() {
     );
 
 }
-export default Startpage;
+export default Pagestart;
