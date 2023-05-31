@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../assets/logo.png'
-import '../styles/Register.css'
+import logo from '../../assets/logo.png'
+import '../../styles/Register.css'
 function Register() {
 
     return (

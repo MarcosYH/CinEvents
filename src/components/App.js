@@ -1,14 +1,16 @@
 import React from "react";
-import Register from "./Register";
-// import Pagestart from "./Pagestart";
-// import Login from "./Login";
+import Landingpage from "./Landingpage";
+// import Register from "./Authpages/Register";
+// import Pagestart from "./Authpages/Pagestart";
+// import Login from "./Authpages/Login";
 
 function App() {
   return (
     <div>
-   {/* <Pagestart/> */}
-   {/* <Login/> */}
-   <Register/>
+   {/* <Pagestart/>
+   <Login/>
+   <Register/> */}
+   <Landingpage/>
     </div>
   );
 }

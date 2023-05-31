@@ -1,6 +1,6 @@
 import React from 'react'
-import Imgstart from "../assets/Imgstart.png"
-import '../styles/Startpage.css'
+import Imgstart from "../../assets/Imgstart.png"
+import '../../styles/Startpage.css'
 function Pagestart() {
     return (
         <>

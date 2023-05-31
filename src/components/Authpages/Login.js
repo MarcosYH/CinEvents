@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Imglogin from '../assets/Imglogin4.png'
-import logo from '../assets/logo.png'
-import '../styles/Login.css'
+import Imglogin from '../../assets/Imglogin4.png'
+import logo from '../../assets/logo.png'
+import "../../styles/Login.css" 
 export default class Login extends Component {
   render() {
     return (
