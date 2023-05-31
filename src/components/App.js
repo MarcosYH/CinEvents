@@ -1,12 +1,14 @@
 import React from "react";
+import Register from "./Register";
 // import Pagestart from "./Pagestart";
-import Login from "./Login";
+// import Login from "./Login";
 
 function App() {
   return (
     <div>
    {/* <Pagestart/> */}
-   <Login/>
+   {/* <Login/> */}
+   <Register/>
     </div>
   );
 }
