@@ -37,7 +37,7 @@ export default class Describe extends Component {
                     </div>
                 </div>
                 <div className='flex justify-center items-center py-10'>
-                <h1 className="text-5xl font-bold text-justify">
+                <h1 className="text-5xl font-semibold text-justify">
                 Nous offrons les meilleurs services
               </h1>
                 </div>
