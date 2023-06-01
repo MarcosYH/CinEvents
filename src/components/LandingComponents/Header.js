@@ -7,7 +7,7 @@ function Header() {
         backgroundImage: `url(${Fondheader})`,
       };
     return (
-        <header className="h-screen bg-no-repeat" style={headerStyle}>
+        <header className="bg-no-repeat" style={headerStyle}>
     
       <div className="flex flex-col lg:flex-row">
                 <div className="lg:w-1/2 py-40 px-24">

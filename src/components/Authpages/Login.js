@@ -22,7 +22,9 @@ export default class Login extends Component {
                 className='mx-auto logo '
               />
             </div>
-            <h1 className="text-6xl font-semibold mb-4 py-5 text-justify px-24 hidden sm:block">Effectuez vos achat de <br />tickets en un rien de <br />temps.</h1>
+            <h1 className="text-6xl font-semibold mb-4 py-5 text-justify px-24 hidden sm:block">
+              Effectuez vos achat de <br />tickets en un rien de <br />temps.
+              </h1>
             <p className="text-2xl text-gray-700 px-24">
               Inscrivez-vous gratuitement et facilité  vos achats de ticket
               dès aujourd'hui avec la meilleure plateforme de vente<br/> de ticket en ligne.

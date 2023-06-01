@@ -4,7 +4,7 @@ function Navbar() {
 
     return (
       <div>
-<nav className=" fixed w-full z-20 top-0 left-0">
+<nav className=" bg-white fixed w-full z-20 top-0 left-0">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <div className=' flex items-center justify-center'>
               <img
