@@ -58,7 +58,7 @@ class Database {
             die('Database connection failed: ' . $e->getMessage());
         }
     }
-
+    
     public function getDBConnection() {
         return $this->conn;
     }
