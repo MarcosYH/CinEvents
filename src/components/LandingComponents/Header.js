@@ -1,13 +1,13 @@
 import React from 'react'
-import Imgheader from '../../assets/Imgheader.png'
-import Fondheader from '../../assets/Fondheader2.png'
+import Imgheader from '../../assets/Imgheader5.png'
+import Fondheader from '../../assets/Fondheader5.png'
 import '../../styles/Header.css'
 function Header() {
     const headerStyle = {
         backgroundImage: `url(${Fondheader})`,
       };
     return (
-        <header className="bg-no-repeat" style={headerStyle}>
+        <header className=" bg-no-repeat" style={headerStyle}>
     
       <div className="flex flex-col lg:flex-row">
                 <div className="lg:w-1/2 py-40 px-24">
@@ -25,7 +25,7 @@ function Header() {
                     <img 
                     src={Imgheader} 
                     alt="Imgheader" 
-                    className=" w-full hidden sm:block py-20 imgheader" />
+                    className=" w-auto hidden sm:block py-20 px-10" />
                 </div>
             </div>
     </header>
