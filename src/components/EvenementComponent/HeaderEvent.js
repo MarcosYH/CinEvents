@@ -82,8 +82,8 @@ export default function HeaderEvent() {
                 
             </div>
 
-            <div className="flex justify-center py-10">
-      <div className="grid grid-cols-3 gap-4 space-x-5 space-y-5">
+            <div className="flex justify-center py-10 space-y-6">
+      <div className="grid grid-cols-3 gap-4 space-x-5">
         {productsData.map((product) => (
           <div key={product.id} className="bg-white shadow-md p-4 rounded-xl flex flex-col space-y-2">
             <img src={product.image} alt={product.nom} className="w-full h-80 object-cover mb-4 rounded-md hover:animate-pulse" />

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo2.png'
+import {Link} from "react-router-dom";
 function Navbar() {
 
     return (
@@ -24,13 +25,16 @@ function Navbar() {
       class="block w-full p-2 pl-10 text-sm text-gray-200 border border-gray-400 rounded-lg" 
       placeholder="Search..."/>
     </div>
-    <div className=' px-6'>
+    <div className='  float-left px-6'>
+    <Link to="/Start">
     <button
         type="button"
         className=" text-white bg-red-800 hover:bg-red-900 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 "
       >
         Connexion
       </button>
+    </Link>
+   
     </div>
       
       
@@ -63,45 +67,45 @@ function Navbar() {
     >
       <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
         <li>
-          <a
-            href="/"
+          <Link
+            to="/"
             className=" text-xl py-2 pl-3 pr-4 text-black bg-blue-700 md:hover:text-blue-700 md:bg-transparent md:p-0 "
             aria-current="page"
           >
             Accueil 
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/Evenements"
+          <Link
+            to="/Evenement"
             className=" text-xl py-2 pl-3 pr-4 text-black rounded  md:hover:text-blue-700 md:p-0  "
           >
             Évènements
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/Cinema"
+          <Link
+            to="/Cinema"
             className=" text-xl py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500   md:dark:hover:bg-transparent "
           >
             Cinéma 
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/Apropos"
+          <Link
+            to="/Apropos"
             className=" text-xl py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  md:dark:hover:bg-transparent "
           >
             A propos
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="/Contact"
+          <Link
+            to="/Contact"
             className=" text-xl py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  md:dark:hover:bg-transparent"
           >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

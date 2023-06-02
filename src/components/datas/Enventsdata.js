@@ -11,7 +11,7 @@ const productsData = [
     {
         id: 1,
         image: Event1,
-        nom: "Produit 1",
+        nom: "Festichill",
         date: "01/01/2023",
         lieu: "Lieu 1",
         nombreTickets: 10,

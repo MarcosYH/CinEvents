@@ -1,6 +1,7 @@
 import React from 'react'
 import Imgstart from "../../assets/Imgstart.png"
 import '../../styles/Startpage.css'
+import {Link} from "react-router-dom";
 function Pagestart() {
     return (
         <>
@@ -11,9 +12,12 @@ function Pagestart() {
         Laissez-nous vous aider à créer des souvenirs magiques : réservez aujourd'hui et acheter facilement les tickets de vos évènements et films cinéma en étant chez vous.
         </p>
         <div className=" py-7">
+        <Link to="/Login" >
         <button className=" bg-red-800 hover:bg-red-900 rounded-lg text-white text-2xl font-bold py-2 px-4 mt-6">
           Commencer
         </button>
+        </Link>
+        
       </div>
       </div>
       <div className="imgstart hover:animate-pulse rounded-md">
