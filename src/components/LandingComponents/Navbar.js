@@ -65,7 +65,7 @@ function Navbar() {
         <li>
           <a
             href="/"
-            className=" text-xl py-2 pl-3 pr-4 text-black bg-blue-700 md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+            className=" text-xl py-2 pl-3 pr-4 text-black bg-blue-700 md:hover:text-blue-700 md:bg-transparent md:p-0 "
             aria-current="page"
           >
             Accueil 

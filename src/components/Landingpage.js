@@ -1,20 +1,18 @@
 import React from 'react'
-import Footer from './LandingComponents/Footer';
-import Newsletter from './LandingComponents/Newsletter';
-import Article from './LandingComponents/Article';
-import Navbar from '../components/LandingComponents/Navbar'
-import Headers from './LandingComponents/Header';
-import Describe from './LandingComponents/Describe';
+// import Footer from './LandingComponents/Footer';
+// import Newsletter from './LandingComponents/Newsletter';
+// import Article from './LandingComponents/Article';
+// import Headers from './LandingComponents/Header';
+// import Describe from './LandingComponents/Describe';
 function Landingpage() {
 
     return (
-        <div>
-            <Navbar />
-            <Headers/>
+        <div> 
+            {/* <Headers/>
             <Describe/>
             <Article/> 
             <Newsletter/>
-            <Footer/>
+            <Footer/> */}
         </div>
     );
 }

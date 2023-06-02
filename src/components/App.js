@@ -1,5 +1,8 @@
 import React from "react";
-import Landingpage from "./Landingpage";
+// import Navbar from '../components/LandingComponents/Navbar'
+
+import Evenement from "./Evenement";
+// import Landingpage from "./Landingpage";
 // import Register from "./Authpages/Register";
 // import Pagestart from "./Authpages/Pagestart";
 // import Login from "./Authpages/Login";
@@ -7,10 +10,13 @@ import Landingpage from "./Landingpage";
 function App() {
   return (
     <div>
-   {/* <Pagestart/>
-   <Login/>
-   <Register/> */}
-   <Landingpage/>
+      {/* <Navbar /> */}
+       {/* <Landingpage />*/}
+      <Evenement/>
+      {/* <Pagestart/>
+        <Login/>
+        <Register/> */}
+
     </div>
   );
 }
